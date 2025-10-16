@@ -23,6 +23,16 @@ public class Main {
         //LongestPalindrome
 //        System.out.println("Result: "+LongestPalindrome.longestPalindrome("abaadda"));
 
-        //
+        //StringToInteger
+//        System.out.println(StringToInteger.myAtoi("+420"));
+
+        //SmallestInteger
+//        System.out.println("Res " + SmallestInteger.smallestInteger(new int[]{-1,2,3},2));
+
+        //ZigZagConversion
+//        System.out.println(ZigZagConversion.convert("PAYPALISHIRING",4));
+
+        //ContainerWithMostWater
+//        System.out.println("Res "+ContainerWithMostWater.maxArea(new int[]{1,2,5,4,5,4}));
     }
 }
