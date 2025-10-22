@@ -1,4 +1,4 @@
-package org.example.Tasks;
+package org.example.Tasks1_14;
 
 import java.util.*;
 
@@ -16,11 +16,6 @@ public class LetterCombinations {
         numbersWithLetters.put('8',"tuv");
         numbersWithLetters.put('9',"wxyz");
         numbersWithLetters.put('0'," ");
-    }
-    private static int check(int n, int max){
-        if(n>=max)
-            return max-1;
-        return n;
     }
     public static List<String> letterCombinations(String digits) {
         List<String> res = new LinkedList<>();

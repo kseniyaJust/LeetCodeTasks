@@ -1,4 +1,4 @@
-package org.example.Tasks;
+package org.example.Tasks1_14;
 
 public class LongestSubstring {
     public static int lengthOfLongestSubstring(String s) {

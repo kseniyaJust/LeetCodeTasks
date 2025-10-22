@@ -1,7 +1,6 @@
-package org.example.Tasks;
+package org.example.Tasks1_14;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class ZigZagConversion {

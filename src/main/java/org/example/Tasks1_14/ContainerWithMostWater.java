@@ -1,6 +1,4 @@
-package org.example.Tasks;
-
-import java.util.*;
+package org.example.Tasks1_14;
 
 public class ContainerWithMostWater {
     public static int maxArea(int[] height) {
