@@ -18,18 +18,23 @@ public class MainForSecondPartTasks {
         //SearchInRotatedArray
 //        System.out.println("Res " + SearchInRotatedSortedArray.search(new int[]{4,5,6,7,0,1,2},0));
         //SwapNodes
-        SwapNodes solution = new SwapNodes();
-        // Создаём список: 1 -> 2 -> 3 -> 4
-        int[] values = {1, 2, 3, 4};
-        ListNode head = solution.createList(values);
+//        SwapNodes solution = new SwapNodes();
+//        // Создаём список: 1 -> 2 -> 3 -> 4
+//        int[] values = {1, 2, 3, 4};
+//        ListNode head = solution.createList(values);
+//
+//        System.out.print("Before : ");
+//        solution.printList(head);
+//
+//        // Вызов метода swapPairs
+//        ListNode newHead = solution.swapPairs(head);
+//
+//        System.out.print("After : ");
+//        solution.printList(newHead);
+        //CombinationSum
+//        System.out.println("Res " + CombinationSum.combinationSum(new int[]{2,4},8));
+        //CombinationSum 2
+        System.out.println("Res: " + CombinationSumSecond.combinationSum(new int[]{2,4,2},8));
 
-        System.out.print("Before : ");
-        solution.printList(head);
-
-        // Вызов метода swapPairs
-        ListNode newHead = solution.swapPairs(head);
-
-        System.out.print("After : ");
-        solution.printList(newHead);
     }
 }
