@@ -34,7 +34,9 @@ public class MainForSecondPartTasks {
         //CombinationSum
 //        System.out.println("Res " + CombinationSum.combinationSum(new int[]{2,4},8));
         //CombinationSum 2
-        System.out.println("Res: " + CombinationSumSecond.combinationSum(new int[]{2,4,2},8));
+        // System.out.println("Res: " + CombinationSumSecond.combinationSum(new int[]{2,4,2},8));
+        //Jump Game
+        System.out.println("Res: " + JumpGame.jump(new int[]{2,3,1,1,4}));
 
     }
 }
