@@ -6,11 +6,9 @@ import java.util.List;
 public class SumFromList {
     private static int getNumberFromList(List<Integer> l){
         l = l.reversed();
-        int digit = l.size()-1;
         int numberFromList =0;
         for(Integer el: l){
-            numberFromList += el*Math.pow(10,digit);
-            --digit;
+            numberFromList = numberFromList *10 +el;
         }
         return numberFromList;
     }

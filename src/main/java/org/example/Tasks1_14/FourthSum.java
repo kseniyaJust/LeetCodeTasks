@@ -3,6 +3,7 @@ package org.example.Tasks1_14;
 import java.util.*;
 
 public class FourthSum {
+    //используются четыре указателя. i и k меняются реже чем m и n
     public static List<List<Integer>> fourSum(int[] nums, int target) {
        Set<List<Integer>> res = new HashSet<>();
         Arrays.sort(nums);

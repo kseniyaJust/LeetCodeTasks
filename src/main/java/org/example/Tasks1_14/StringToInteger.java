@@ -6,7 +6,7 @@ public class StringToInteger {
         int oneNumber =0;
         s = s.trim();
 
-        if(s.isEmpty() || s.contains(" ")) return 0;
+        if(s.isBlank()) return 0;
 
         if(s.charAt(start) == '-'){
             sign =-1;
@@ -18,10 +18,11 @@ public class StringToInteger {
         for(int i =start;i<s.length();i++){
             try{
                 oneNumber =Integer.parseInt(s.charAt(i) + "");
-                res+= oneNumber* (int)Math.pow(10,s.length()-i-1);
+                res= res* 10 + oneNumber;
+                System.out.println(res);
 
             }catch(NumberFormatException e){
-                return res;
+                break;
             }
         }
         res= res * sign;

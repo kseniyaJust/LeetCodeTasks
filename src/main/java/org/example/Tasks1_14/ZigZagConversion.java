@@ -13,7 +13,7 @@ public class ZigZagConversion {
         for (int i = 0; i < numRows; i++) {
             rows[i] = new ArrayList<>();
         }
-
+        //например при делении на три строчки индекс idx будет идти 0 1 2 1 0 и т.д.
         for (char c : s.toCharArray()) {
             rows[idx].add(c);
             if (idx == 0) {
@@ -22,6 +22,7 @@ public class ZigZagConversion {
                 d = -1;
             }
             idx += d;
+
         }
         StringBuilder result = new StringBuilder();
         for (List<Character> row : rows) {

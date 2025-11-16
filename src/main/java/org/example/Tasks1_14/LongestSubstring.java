@@ -1,16 +1,25 @@
 package org.example.Tasks1_14;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class LongestSubstring {
     public static int lengthOfLongestSubstring(String s) {
-        int result =0;
-        char prevLetter = s.charAt(0);
+        List<Character> letters = new LinkedList<>();
+        int middleResult =0;
+        int max =0;
         for(char el: s.toCharArray()){
-            if(el==prevLetter){
-                result=0;
+            if(letters.contains(el)){
+                middleResult=0;
             }
-            result++;
-            prevLetter=el;
+            else{
+                middleResult++;
+                if(middleResult>max)
+                    max = middleResult;
+                letters.add(el);
+            }
+
         }
-        return result;
+        return max;
     }
 }

@@ -23,10 +23,11 @@ public class LetterCombinations {
         backtrack(digits, 0, new StringBuilder(), res);
         return res;
     }
+    //idx - индекс текущей буквы
     private static void backtrack(String digits, int idx, StringBuilder comb, List<String> res) {
         if (idx == digits.length()) {
             res.add(comb.toString());
-            return;
+            return; // возвращается к ближайшему вызову
         }
 
         String letters = numbersWithLetters.get(digits.charAt(idx));

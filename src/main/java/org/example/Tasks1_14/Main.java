@@ -17,6 +17,22 @@ public class Main {
         //System.out.println("Res " + FourthSum.fourSum(new int[]{1,0,-1,0,-2,2},0));
 
         //Remove node
-        System.out.println("Res " + RemoveNodeFromEnd.removeNthFromEnd(List.of(1,2,3,4,5),2));
+        //System.out.println("Res " + RemoveNodeFromEnd.removeNthFromEnd(List.of(1,2,3,4,5),2));
+
+//        System.out.println("Res: " + ContainerWithMostWater.maxArea(new int[] {1,8,6,2,5,4,8,3,7}));
+
+//        System.out.println("Res: " + LongestPalindrome.longestPalindrome("babad"));
+
+//        System.out.println("Res: " + LongestSubstring.lengthOfLongestSubstring("bbbbb"));
+
+//        System.out.println("Res: " + ReverseInteger.reverseInteger(123));
+
+//        System.out.println("Res: " + SmallestInteger.smallestInteger(new int[]{4,3,6,2,3},2));
+
+//        System.out.println("Res: " + StringToInteger.myAtoi("42asd44"));
+
+        System.out.println("Res: " + SumFromList.addTwoNumbers(List.of(2,4,3),List.of(5,6,4)));
+
+        //       System.out.println("Res : " + ZigZagConversion.convert("PAYPALISHIRING",3));
     }
 }
